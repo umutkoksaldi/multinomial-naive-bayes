@@ -194,10 +194,3 @@ function main(path)
     % plot the accuracies
     plot(accuracy_matrix) 
 end
-
-
-    
-    
-
-
-
