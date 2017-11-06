@@ -12,3 +12,8 @@ The initial prediction accuracy of the test set is 85.75%
 
 ### Backward elimination
 After the initial training of the model, the mutual information for each word (feature) is calculated; and each feature is removed from the dataset, starting from the least relevant ones, and then the model is retrained. This process aids in the determination of the most optimal set of features to include and operate on, in order to achieve the highest prediction accuracy.
+
+## Run
+The main function provided takes an argument specifying the path containing the dataset. Therefore, the proper way to execute the code is to run the command: 
+
+``` main 'path_to_dataset' ```
